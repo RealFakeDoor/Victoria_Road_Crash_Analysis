@@ -29,6 +29,17 @@ h1 {
     position: relative; /* Ensure the plot area is positioned correctly */
 }
 
+/* Container for the map */
+#map {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    margin: 20px auto;
+    max-width: 90%; /* Limit the width to keep it responsive */
+    height: 500px; /* Set a fixed height for the map area */
+    position: relative; /* Ensure the map area is positioned correctly */
+}
 
 /* Highlight important elements */
 .highlight {
@@ -40,7 +51,7 @@ h1 {
     h1 {
         font-size: 1.5em; /* Smaller font size for smaller screens */
     }
-    #plot {
+    #plot, #map {
         padding: 10px;
         margin: 10px auto;
     }
